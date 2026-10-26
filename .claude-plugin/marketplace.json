@@ -1,0 +1,17 @@
+{
+  "name": "axioma",
+  "owner": {
+    "name": "Axioma Intelligence",
+    "email": "suporte@axiomaintelligence.com"
+  },
+  "metadata": {
+    "description": "Plugins da Axioma Intelligence para escritórios de advocacia."
+  },
+  "plugins": [
+    {
+      "name": "axioma-cortex",
+      "source": "./",
+      "description": "Cortex: acervo de processos do escritório, relatórios de análise, consultas públicas dos tribunais, pesquisa de jurisprudência e seis atalhos para o trabalho do advogado."
+    }
+  ]
+}

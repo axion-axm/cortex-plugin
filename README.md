@@ -13,11 +13,26 @@ O Cortex é contratado por escritórios de advocacia. O acesso é por convite: o
 e-mail de cada advogado, e cada pessoa enxerga somente o acervo do próprio escritório. Para contratar, escreva para
 suporte@axiomaintelligence.com.
 
+## Instalação
+
+No Claude Code (versão 2.1.275 ou posterior):
+
+```
+/plugin install axioma-cortex --marketplace axion-axm/cortex-plugin
+```
+
+Depois de instalar, conecte o Cortex quando o Claude pedir e faça o login com o e-mail convidado pelo escritório.
+
 ## O que vem no plugin
 
 - O endereço do conector Cortex. Ao conectar, o Claude pede o login com o e-mail convidado pelo escritório.
-- Seis atalhos: `/cortex-consulta-autos`, `/cortex-relatorio-processual`, `/cortex-estrategia-processual`,
-  `/cortex-pesquisa-jurisprudencial`, `/cortex-parecer` e `/cortex-minuta`.
+- Seis atalhos (digite `/` e escolha no menu, que mostra o nome do plugin ao lado de cada um):
+  - `/axioma-cortex:cortex-consulta-autos`
+  - `/axioma-cortex:cortex-relatorio-processual`
+  - `/axioma-cortex:cortex-estrategia-processual`
+  - `/axioma-cortex:cortex-pesquisa-jurisprudencial`
+  - `/axioma-cortex:cortex-parecer`
+  - `/axioma-cortex:cortex-minuta`
 
 O plugin traz só instruções e o endereço do conector. Não traz chave, senha nem dado de processo: o acesso é
 conferido no servidor do Cortex a cada consulta, pelo login de quem está usando.
@@ -26,7 +41,7 @@ conferido no servidor do Cortex a cada consulta, pelo login de quem está usando
 
 - "Resuma o processo [número CNJ do seu acervo]: partes, pedido, fase atual e próximas providências, com a página de
   cada fato."
-- "/cortex-relatorio-processual para o processo [número CNJ do seu acervo], em versão para eu revisar antes de enviar
+- "/axioma-cortex:cortex-relatorio-processual para o processo [número CNJ do seu acervo], em versão para eu revisar antes de enviar
   ao cliente."
 - "Pesquise jurisprudência do STJ sobre compensação de créditos reconhecidos em mandado de segurança tributário."
 
