@@ -1,0 +1,17 @@
+{
+  "name": "axioma-cortex",
+  "displayName": "Cortex",
+  "version": "0.2.0",
+  "description": "Cortex: acervo de processos do escritório, relatórios de análise, consultas públicas dos tribunais, pesquisa de jurisprudência e funções jurídicas conduzidas por etapas, com seis atalhos para o trabalho do advogado.",
+  "author": {
+    "name": "Axioma Intelligence",
+    "email": "suporte@axiomaintelligence.com"
+  },
+  "license": "MIT",
+  "icon": "./icon.png",
+  "keywords": ["jurídico", "advocacia", "processos", "jurisprudência", "brasil"],
+  "documentationUrl": "https://conector.cortex.axioma-app.com/documentacao",
+  "supportUrl": "https://conector.cortex.axioma-app.com/documentacao",
+  "privacyPolicyUrl": "https://conector.cortex.axioma-app.com/privacidade",
+  "termsOfServiceUrl": "https://conector.cortex.axioma-app.com/termos"
+}
