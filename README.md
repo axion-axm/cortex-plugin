@@ -15,6 +15,23 @@ suporte@axiomaintelligence.com.
 
 ## Instalação
 
+No Claude (navegador, aplicativo do computador ou Cowork; conta Pro, Max, Ultra, Team ou Enterprise):
+
+1. Em Configurações → Recursos, deixe ligada a execução de código.
+2. Em Configurações → Plugins, clique em Adicionar → Adicionar marketplace, informe `axion-axm/cortex-plugin` e
+   confirme.
+3. Instale o plugin Cortex e ligue a sincronização automática do marketplace, para receber as novas versões.
+4. Na aba Conectores do plugin, conecte o Cortex e entre com o e-mail convidado pelo escritório (chega um código por
+   e-mail).
+
+Em escritórios no plano Team ou Enterprise do Claude, o proprietário da conta do escritório no Claude adiciona o
+conector Cortex para a organização (Configurações da organização → Conectores), liga as opções Skills e execução de
+código da organização (Configurações da organização → Plugins e skills → Política) e decide como o plugin chega aos
+advogados: cada um pelo caminho acima, se a organização permitir que os membros adicionem plugins, ou todos de uma
+vez, pelo envio do pacote do plugin em Configurações da organização → Plugins e skills. O pacote e as orientações:
+suporte@axiomaintelligence.com. Quem instalou antes o plugin por arquivo deve removê-lo e instalar pelo marketplace: a
+versão enviada por arquivo não recebe atualizações.
+
 No Claude Code (versão 2.1.275 ou posterior):
 
 ```
@@ -26,7 +43,8 @@ Depois de instalar, conecte o Cortex quando o Claude pedir e faça o login com o
 ## O que vem no plugin
 
 - O endereço do conector Cortex. Ao conectar, o Claude pede o login com o e-mail convidado pelo escritório.
-- Seis atalhos (digite `/` e escolha no menu, que mostra o nome do plugin ao lado de cada um):
+- Seis atalhos (digite `/` e escolha no menu, que mostra o nome do plugin ao lado de cada um). Cada um começa com
+  perguntas rápidas, a maioria com opções para clicar, e depois faz o trabalho:
   - `/axioma-cortex:cortex-consulta-autos`
   - `/axioma-cortex:cortex-relatorio-processual`
   - `/axioma-cortex:cortex-estrategia-processual`
